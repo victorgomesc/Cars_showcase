@@ -10,7 +10,13 @@ const Navbar = () => {
             <Link href="/" className=" flex justify-center items-center">
                 <Image src="/logo.svg" alt="car hub logo" width={118} height={18} className="object-contain" />
             </Link>
-            <CustomButton title="Sign In" btnType="button" containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]" />
+            <Link href="/login">
+              <p title="Sign In" 
+              className="text-white text-xl text-bold rounded-full bg-blue-500 min-w-[96px] h-10 flex items-center justify-center">Sign In</p>
+            </Link>
+            <Link href="/cadastro">
+              <p title="Sign up" className="text-primary-blue rounded-full bg-white min-w-[96px] h-10 flex items-center justify-center">Sign Up</p>
+            </Link>
         </nav>
     </header>
   )
