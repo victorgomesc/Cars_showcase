@@ -11,11 +11,11 @@ const Navbar = () => {
                 <Image src="/logo.svg" alt="car hub logo" width={118} height={18} className="object-contain" />
             </Link>
             <Link href="/login">
-              <p title="Sign In" 
+              <p 
               className="text-white text-xl text-bold rounded-full bg-blue-500 min-w-[96px] h-10 flex items-center justify-center">Sign In</p>
             </Link>
             <Link href="/cadastro">
-              <p title="Sign up" className="text-primary-blue rounded-full bg-white min-w-[96px] h-10 flex items-center justify-center">Sign Up</p>
+              <p className="text-primary-blue rounded-full bg-white min-w-[96px] h-10 flex items-center justify-center">Sign Up</p>
             </Link>
         </nav>
     </header>
