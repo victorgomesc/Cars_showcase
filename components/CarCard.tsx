@@ -32,7 +32,7 @@ const CarCard = ({ car }: CarCardProps) => {
             </span>
             {carRent}
             <span className=" self-end text-[14px] font-medium">
-                /day
+                /Dia
             </span>
         </p>
                 {/*{generateCarImageUrl(car)} */}
@@ -62,7 +62,7 @@ const CarCard = ({ car }: CarCardProps) => {
                 </div>
             </div>
             <div className="car-card__btn-container">
-                <CustomButton title="View more" 
+                <CustomButton title="Mostre mais" 
                 containerStyles="w-full py-[16px] rounded-full bg-primary-blue" 
                 textStyles="text-white text-[14px] leading-[17px] font-bold" 
                 //rightIcon="/rigth-arrow.svg"

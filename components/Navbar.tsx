@@ -12,10 +12,10 @@ const Navbar = () => {
             </Link>
             <Link href="/login">
               <p 
-              className="text-white text-xl text-bold rounded-full bg-blue-500 min-w-[96px] h-10 flex items-center justify-center">Sign In</p>
+              className="text-white text-xl text-bold rounded-full bg-blue-500 min-w-[96px] h-10 flex items-center justify-center">Loguin</p>
             </Link>
             <Link href="/cadastro">
-              <p className="text-primary-blue rounded-full bg-white min-w-[96px] h-10 flex items-center justify-center">Sign Up</p>
+              <p className="text-primary-blue rounded-full bg-white min-w-[96px] h-10 flex items-center justify-center">Cadastre-se</p>
             </Link>
         </nav>
     </header>

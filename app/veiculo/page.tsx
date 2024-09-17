@@ -2,13 +2,12 @@ import { Navbar } from '@/components'
 import CadVeiculo from '@/components/CadVeiculo'
 import React from 'react'
 
-const CadastroVeiculo = () => {
+const Veiculo = () => {
   return (
     <div>
-        <Navbar />
         <CadVeiculo />
     </div>
   )
 }
 
-export default CadastroVeiculo
+export default Veiculo

@@ -111,7 +111,9 @@ const SignUp = () => {
             
             <button type="submit" onClick={showSuccessMessage} className="w-44 h-10 mt-10 bg-blue-800 hover:bg-blue-600
             font-semibold text-xl text-white rounded-full mb-8">
-                Enviar
+                <Link href="/veiculo">
+                    Enviar
+                </Link>
             </button>
             {message && <div className="notification">{message}</div>}
         </form>
